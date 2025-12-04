@@ -100,14 +100,19 @@
 OrbitControls 体验升级
 
 ## 🛠️ 技术栈（Tech Stack）
-技术	用途
-React + Vite	前端基础框架
-React Three Fiber (R3F)	Three.js 的 React 版封装
-Three.js	3D 渲染核心引擎
-@react-three/drei	辅助封装（轨迹线、控件等）
-Google Gemini API	星球小知识生成
-TailwindCSS	UI 样式
-📂 项目结构
+| 技术 | 用途 |
+|------|------|
+| React + Vite | 前端基础框架 |
+| React Three Fiber (R3F) | Three.js 的 React 版封装 |
+| Three.js | 3D 渲染核心引擎 |
+| @react-three/drei | 辅助封装（轨迹线、控件等） |
+| Google Gemini API | 星球小知识生成 |
+| TailwindCSS | UI样式 |
+
+
+## 📂 项目结构
+
+```kotlin
 cosmos-explorer-3d/
 ├── src/
 │   ├── components/
@@ -120,35 +125,48 @@ cosmos-explorer-3d/
 │   ├── data/planets.js
 │   └── App.jsx
 └── package.json
+```
 
-🏁 启动项目
-1. 克隆仓库
+## 🏁 启动项目
+### 1. 克隆仓库
+
+```bash
 git clone https://github.com/yourname/cosmos-explorer-3d.git
 cd cosmos-explorer-3d
+```
 
-2. 安装依赖
+### 2. 安装依赖
+
+```bash
 npm install
+```
 
-3. 配置 Gemini API Key
+### 3. 配置 Gemini API Key
 
 在根目录创建 .env：
 
+```env
 VITE_GEMINI_API_KEY=你的key
+```
 
-4. 运行项目
+### 4. 运行项目
+
+```bash
 npm run dev
-
+```
 
 访问 http://localhost:5173 即可。
 
-🪐 使用方式
-动作	操作方式
-旋转宇宙	鼠标左键拖动
-缩放	滚轮滚动
-平移	右键拖动
-查看星球信息	点击星球
-生成星球知识	点击 “询问 Gemini” 按钮
-🎯 Roadmap（你可以未来继续加）
+## 🪐 使用方式
+| 动作 | 操作方式 |
+|------|------|
+| 旋转宇宙 | 鼠标左键拖动 |
+| 缩放 | 滚轮滚动 |
+| 平移 | 右键拖动 |
+| 查看星球信息 | 点击星球 、
+| 生成星球知识 | 点击 “询问 Gemini” 按钮 |
+
+## 🎯 Roadmap（未来继续加）
 
  月球系统 🌕
 
@@ -162,16 +180,17 @@ npm run dev
 
  全语音版的 AI 宇宙解说
 
-🎉 项目意义
+## 🎉 项目意义
 
 这个项目是：
 
 ✨ 一个好玩的可视化作品
-✨ 一个 AI × WebGL 的示例
-✨ 一个展示你前端能力的亮眼项目
-✨ 一个可以不断扩展的天文交互工具
 
-非常适合放在 GitHub 主页顶部 ⭐！
+✨ 一个 AI × WebGL 的示例
+
+✨ 一个展示你前端能力的亮眼项目
+
+✨ 一个可以不断扩展的天文交互工具
 
 ❤️ 贡献
 
