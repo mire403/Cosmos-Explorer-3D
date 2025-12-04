@@ -1,0 +1,5 @@
+{
+  "name": "宇宙探索者 3D",
+  "description": "一个使用 React Three Fiber 构建的交互式、丝滑流畅的 3D 太阳系探索器。具有实时轨道、动态相机控制和 Gemini 驱动的行星洞察。",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,82 @@
+import { PlanetData } from './types';
+
+// Visual scaling factors (not astronomically accurate, but visually pleasing)
+export const PLANET_DATA: PlanetData[] = [
+  {
+    id: 'mercury',
+    name: '水星',
+    color: '#A5A5A5',
+    size: 0.8,
+    distance: 10,
+    speed: 1.5,
+    description: '太阳系中最小的行星，也是离太阳最近的行星。',
+  },
+  {
+    id: 'venus',
+    name: '金星',
+    color: '#E3BB76',
+    size: 1.5,
+    distance: 15,
+    speed: 1.1,
+    description: '金星的自转方向与大多数行星相反，且自转非常缓慢。',
+  },
+  {
+    id: 'earth',
+    name: '地球',
+    color: '#22A6B3',
+    size: 1.6,
+    distance: 22,
+    speed: 0.8,
+    description: '我们的家园，是目前已知唯一孕育生命的星球。',
+  },
+  {
+    id: 'mars',
+    name: '火星',
+    color: '#EB4D4B',
+    size: 1.2,
+    distance: 30,
+    speed: 0.6,
+    description: '火星是一个布满尘埃、寒冷的沙漠世界，大气层非常稀薄。',
+  },
+  {
+    id: 'jupiter',
+    name: '木星',
+    color: '#F9CA24',
+    size: 4.5,
+    distance: 45,
+    speed: 0.3,
+    description: '木星的质量是太阳系其他所有行星质量总和的两倍以上。',
+  },
+  {
+    id: 'saturn',
+    name: '土星',
+    color: '#F0DF99',
+    size: 3.8,
+    distance: 65,
+    speed: 0.2,
+    description: '土星拥有耀眼的冰环系统，是行星中独一无二的存在。',
+    ring: {
+      innerRadius: 4.5,
+      outerRadius: 7,
+      color: '#DAC685',
+    }
+  },
+  {
+    id: 'uranus',
+    name: '天王星',
+    color: '#7DE3F4',
+    size: 2.5,
+    distance: 85,
+    speed: 0.15,
+    description: '天王星的自转轴倾斜角度近乎90度，像是在轨道上“躺着”滚动。',
+  },
+  {
+    id: 'neptune',
+    name: '海王星',
+    color: '#30336B',
+    size: 2.4,
+    distance: 105,
+    speed: 0.1,
+    description: '海王星黑暗、寒冷，并伴随着超音速的强风。',
+  },
+];
